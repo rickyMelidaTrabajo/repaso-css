@@ -1,0 +1,142 @@
+/*.google a {
+    text-decoration: overline;
+    text-transform: uppercase;
+    /*text-transform: capitalize;
+    letter-spacing: 5px;
+}*/
+
+/*
+.parrafo p {
+    font-family: 'Times New Roman';
+    font-weight: 900;
+    width: 300px;
+    text-indent: 20px; /*Esto agrega una sangria en la primera linea del texto
+    line-height: 1.7;
+    word-spacing: 10px;
+    /* el primero se desplaza hacia la derecha y el segundo que tanto se deplaza hacia abajo
+        y el tercero que tan difuso se va a ver la sombra
+    
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}*/
+
+/*
+.enlace a {
+    color: rgb(0, 0, 0);
+}
+*/
+
+/*Si todavia no se visito el enlace*/
+/*.enlace a:link {
+    color: pink;
+    text-decoration: none;
+}
+*/
+
+/*Si ya se visito el enlace*/
+/*.enlace a:visited {
+    color: blue;
+}*/
+
+/*
+.enlace a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+*/
+
+/*Cuando hacemos click sobre la etiqueta*/
+/*.enlace a:active {
+    color: aqua;
+} 
+*/
+
+/*.listas ul{
+    /*list-style-type: lower-alpha;
+    width: 200px;
+    list-style-type: none;
+    padding-left: 0;
+}
+*/
+
+/*.listas ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}*/
+
+/*.tablas table {
+    width: 80%;
+    background: gray;
+    border-collapse: collapse; /*elimina los bordes que sobran entre las casillas
+}
+*/
+
+/*Seleccionamos los hijos intercalados*/
+/*tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+*/
+
+/*th {
+    background-color: #4caf50;
+    color: beige;
+    text-align: left;
+}
+*/
+
+/*.max-width p {
+    max-width: 500px;
+    background-color: aqua;
+    margin: auto;
+}
+*/
+
+/*#over {
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+*/
+
+/*.float img{
+    float: right;
+    opacity: 0.3;
+}*/
+
+.drop-down {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  margin-top: 50px;
+}
+
+.drop-down a {
+  text-decoration: none;
+  margin: 20px;
+  background-color: blue;
+  color: beige;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.drop-down:hover .content {
+  display: block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  width: 100px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background: red;
+}
+
+.content ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.content ul li {
+  padding: 10px;
+}
